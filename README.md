@@ -9,11 +9,12 @@ This script requires the following Python packages:
 - `googlesearch`
 - `requests`
 - `beautifulsoup4`
+- `lxml`
 
 You can install these dependencies by running:
 
 ```
-pip install google googlesearch beautifulsoup4
+pip install -r requirements.txt
 ```
 
 ## How to use
