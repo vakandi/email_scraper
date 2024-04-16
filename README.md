@@ -25,11 +25,12 @@ pip install -r requirements.txt
 
 3. Navigate to the repository directory in a terminal.
 
-4. Run the script using the command `python email_scraper.py`.
+4. Run the script using the command `python3 scraper.py`.
 
 5. Choose a search type by entering 1 for a simple search or 2 for a domain search.
 
 6. Enter the search string or domain and the number of Google results to retrieve.
 
-7. The script will then scrape email addresses from the retrieved web pages and save them to a file called `emails.list` in the same directory as the script.
+7. The script will then scrape email addresses from the retrieved web pages and subpages (maximum 10 from sitemap links, changeable at the top of the code) and save them to a file called `emails.list` in the same directory as the script.
+
 
